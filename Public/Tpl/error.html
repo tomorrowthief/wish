@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>error</title>
+	<script type="text/javascript">
+	   window.onload=function(){
+	      setTimeout(function(){
+		     window.location.href='<?php echo __APP__;?>';
+			 },5000);
+	   }
+	</script>  
+</head>
+<body>
+	<div>
+	    <p><?php echo $e['message'];?></p>
+		<div>
+		 5s
+		</div>
+	</div>
+</body>
+</html>
